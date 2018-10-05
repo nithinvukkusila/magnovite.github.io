@@ -1,0 +1,326 @@
+    body {
+      overflow: hidden;
+      /* position: absolute; */
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      font-family: Roboto,unica One;
+      /* background:#ff4d4d; */
+     /* background-image: url('christ50.jpg'); */
+      /* background: linear-gradient(  (rgba(17, 10, 10, 1), rgba(0, 0, 0, 0.6), transparent), url("christ50.jpg") no-repeat center; */
+      background:
+      linear-gradient(rgba(17, 10, 10, 0.85), rgba(0, 0, 0, 1)), 
+      url('christ50.jpg') no-repeat center;
+      /* background:
+      linear-gradient(rgba(255,215,0,0.8), rgba(255,215,0,0.9)), 
+      url('christ50.jpg') no-repeat center; */
+      background-size: cover;
+
+}
+
+#logo
+{
+  
+    -webkit-filter: drop-shadow(5px 5px 20px gold );
+    filter: drop-shadow(5px 5px 20px gold);
+}
+    
+    .wrapper {
+      /* position: absolute; */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .particule {
+      position: absolute;
+    }
+    * {
+      box-sizing: border-box;
+    }  height: 100%;
+    
+    
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 5rem;
+    }
+    
+    .heading {
+      text-shadow: 12px 20px 20px grey;
+      color:#EED471;
+          /* color: grey;   */
+      font-size: 70px;
+      font-weight:600;
+      text-align: center;
+      text-transform: uppercase;
+      clear: both;
+    }
+    .cufe
+    {
+      text-align: center;
+      font-size: 25px;
+      font-weight: ;
+      /* color:black; */
+      color: gold;
+    }
+.maincontent
+{
+
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+ 
+   #christ
+{
+  float: right;
+  clear: both;
+}
+#christ50
+{
+  float: left;
+  
+}
+#logo
+{
+  margin: 100px auto;
+
+}
+
+
+/* count down */
+
+
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+body {
+  margin: 0;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  
+}
+
+.time-to {
+  text-align: center;
+    color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 20px auto;
+}
+.time-to span {
+  display: block;
+  font-size: 40px;
+  color:gold;
+  box-shadow: 2px 2px 2px green;
+  margin: 20px auto;
+}
+
+
+.myclass
+{ 
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 8px 5px 50px grey;
+  top: 80%;
+  left: 35%;
+  width: 30%;
+  float: left;
+  text-align: center;
+  align-content: center;
+  clear: both;
+  /* background-color: rgb(228, 63, 63); */
+  padding: 5px 25px;
+ 
+}
+
+/* mouse move effect*/
+.page-container {
+  width: 100%;
+  height: 50%;
+  margin:300px auto;
+  position: fixed;
+
+}
+
+.page-back {
+  width: 120%;
+  height: 120%;
+  left: 0%;
+  top: 0%;
+  position: absolute;
+
+}
+
+.page-front {
+  position: absolute;
+  left: 50%;
+  top: -70%;
+  width: 500px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.page-front img {
+  width: 150px;
+} 
+
+
+/* timer */
+
+
+* {
+  box-sizing: border-box;
+}
+.landing-inner {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  color: gold;
+  /* color: grey; */
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+ 
+}
+
+.landing {
+  position: relative;
+  height: 100vh;
+}
+
+.landing h1 {
+  font-size: 50px;
+}
+
+.landing p {
+  font-size: 20px;
+}
+
+.countdown {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown div {
+  padding: 20px;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  background: #000;
+  opacity: 0.7;
+  margin: 5px;
+}
+/* 
+.countdown div:first-child {
+  background: #17a2b8;
+} */
+
+.countdown span {
+  display: block;
+  font-size: 25px;
+}
+
+@media (max-width: 650px) {
+  .landing img {
+    width: 70%;
+  }
+
+  .landing h1 {
+    font-size: 40px;
+  }
+
+  .countdown {
+    font-size: 30px;
+    flex-direction: column;
+  }
+
+  .countdown div {
+    display: none;
+  }
+
+  .countdown div:first-child {
+    display: block;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+
+@media (max-height: 600px) {
+  img {
+    width: 20%;
+  }
+
+  p {
+    display: none;
+  }
+}
+
+@media (max-height: 400px) {
+   img {
+    padding-bottom: 3px;
+  }
+  
+  h1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px)
+{
+  .heading {
+    text-shadow: 12px 20px 20px grey;
+    color:#EED471;
+        /* color: grey;   */
+    font-size: 40px;
+    font-weight:600;
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+  }
+  .cufe
+  {
+    text-align: center;
+    font-size: 15px;
+    font-weight: ;
+    /* color:black; */
+    color: gold;
+  }
+  #christ50{
+    display: none;
+  }
+ #christ 
+ {
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin-right: 50px;
+ } 
+ .maincontent
+{
+
+margin-top: 120px;
+
+}
+
+}
+
+
+
+
+
+
+
+/*Focus animation headinf*/
+
