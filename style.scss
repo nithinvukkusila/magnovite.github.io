@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto,unica One;
+  background-color:#EEE8AA;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5rem;
+}
+
+.heading {
+  color: #333;
+  font-size: 24px;
+  font-weight: 30;
+  text-transform: uppercase;
+}
+.heading1 {
+  color: #333;
+  font-size:400px;
+  font-weight: 300px;
+  text-transform: uppercase;
+}
+
+
+/* count down */
+@import '//fonts.googleapis.com/css?family=Bangers';
+
+body { margin:0; }
+.wrap {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  background:orange;
+}
+.time-to {
+  text-align:center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  font-size:35px;
+  letter-spacing:4px;
+  span {
+    display:block;
+    font-size:80px;
+    color:red;
+  }
+}
+
+
+
+
+
+
+
+
+/*focus animation*/
+
